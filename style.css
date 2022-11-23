@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+  transition: 0.7s;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+}
+
+.container {
+  width: 355px;
+  height: 520px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.container .intro {
+  margin: 20px;
+}
+
+.container .intro h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.container .intro p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+}
+
+/*  Pricing  */
+
+.pricing {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.pricing p {
+  color: hsl(223, 47%, 23%);
+  margin-left: -50px;
+  font-weight: 700;
+}
+
+#price {
+  color: hsl(224, 23%, 55%);
+}
+
+.pricing a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+/* buttons */
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
+#pay,
+#cancel {
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#pay {
+  color: #fff;
+  box-shadow: 0 12px 18px hsl(227, 100%, 97%);
+  background-color: hsl(245, 75%, 52%);
+}
+
+#pay:hover,
+.pricing a:hover {
+  opacity: 0.8;
+}
+
+#pay:active,
+.pricing a:active {
+  opacity: 0.8;
+  scale: 0.8;
+}
+
+#cancel {
+  width: fit-content;
+  height: fit-content;
+  color: hsl(224, 23%, 55%);
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+#cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+#cancel:active {
+  color: hsl(223, 47%, 23%);
+  scale: 0.8;
+}
+
+/* footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+}
