@@ -15,13 +15,15 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  background-image: url(images/pattern-background-desktop.svg);
+  min-height: 100vh;
+  background: url(images/pattern-background-desktop.svg) no-repeat top center;
+  background-size: contain;
+  background-color: #e0e8ff;
 }
 
 .container {
-  width: 400px;
-  height: 580px;
+  width: 25rem;
+  height: 36.25rem;
   text-align: center;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -147,8 +149,12 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   body {
     background-image: url(images/pattern-background-mobile.svg);
+  }
+
+  .container {
+    width: 85vw;
   }
 }
