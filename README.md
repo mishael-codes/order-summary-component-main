@@ -28,15 +28,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mishael-codes/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://mishael-codes.github.io/order-summary-component-main/)
+- Solution URL: [Solution URL here](https://github.com/mishael-codes/order-summary-component-main)
+- Live Site URL: [Live site URL here](https://mishael-codes.github.io/order-summary-component-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS properties
 - Flexbox
 - Mobile design
 
